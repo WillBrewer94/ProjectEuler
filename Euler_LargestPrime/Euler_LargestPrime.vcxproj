@@ -18,19 +18,12 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Multiples.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Multiples.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{C9C88A56-B8C2-4BCD-8BE2-62F7A24C0D37}</ProjectGuid>
+    <ProjectGuid>{4A9F7ADD-2987-45D8-AA1B-BBE10A38B9BE}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>ProjectEuler</RootNamespace>
+    <RootNamespace>EulerLargestPrime</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
-    <ProjectName>Euler_Multiples</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -157,6 +150,12 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Euler_LargestPrime.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Euler_LargestPrime.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectEuler", "ProjectEuler\ProjectEuler.vcxproj", "{C9C88A56-B8C2-4BCD-8BE2-62F7A24C0D37}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Euler_Multiples", "ProjectEuler\ProjectEuler.vcxproj", "{C9C88A56-B8C2-4BCD-8BE2-62F7A24C0D37}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Euler_Fibonacci", "Euler_Fibonacci\Euler_Fibonacci.vcxproj", "{B34CEE23-3A6C-452A-B71E-6DCED4EC02CF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Euler_LargestPrime", "Euler_LargestPrime\Euler_LargestPrime.vcxproj", "{4A9F7ADD-2987-45D8-AA1B-BBE10A38B9BE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Euler_Palindrome", "Euler_Palindrome\Euler_Palindrome.vcxproj", "{A902BDB3-4E37-40A0-BED0-8B55FD601682}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,30 @@ Global
 		{C9C88A56-B8C2-4BCD-8BE2-62F7A24C0D37}.Release|x64.Build.0 = Release|x64
 		{C9C88A56-B8C2-4BCD-8BE2-62F7A24C0D37}.Release|x86.ActiveCfg = Release|Win32
 		{C9C88A56-B8C2-4BCD-8BE2-62F7A24C0D37}.Release|x86.Build.0 = Release|Win32
+		{B34CEE23-3A6C-452A-B71E-6DCED4EC02CF}.Debug|x64.ActiveCfg = Debug|x64
+		{B34CEE23-3A6C-452A-B71E-6DCED4EC02CF}.Debug|x64.Build.0 = Debug|x64
+		{B34CEE23-3A6C-452A-B71E-6DCED4EC02CF}.Debug|x86.ActiveCfg = Debug|Win32
+		{B34CEE23-3A6C-452A-B71E-6DCED4EC02CF}.Debug|x86.Build.0 = Debug|Win32
+		{B34CEE23-3A6C-452A-B71E-6DCED4EC02CF}.Release|x64.ActiveCfg = Release|x64
+		{B34CEE23-3A6C-452A-B71E-6DCED4EC02CF}.Release|x64.Build.0 = Release|x64
+		{B34CEE23-3A6C-452A-B71E-6DCED4EC02CF}.Release|x86.ActiveCfg = Release|Win32
+		{B34CEE23-3A6C-452A-B71E-6DCED4EC02CF}.Release|x86.Build.0 = Release|Win32
+		{4A9F7ADD-2987-45D8-AA1B-BBE10A38B9BE}.Debug|x64.ActiveCfg = Debug|x64
+		{4A9F7ADD-2987-45D8-AA1B-BBE10A38B9BE}.Debug|x64.Build.0 = Debug|x64
+		{4A9F7ADD-2987-45D8-AA1B-BBE10A38B9BE}.Debug|x86.ActiveCfg = Debug|Win32
+		{4A9F7ADD-2987-45D8-AA1B-BBE10A38B9BE}.Debug|x86.Build.0 = Debug|Win32
+		{4A9F7ADD-2987-45D8-AA1B-BBE10A38B9BE}.Release|x64.ActiveCfg = Release|x64
+		{4A9F7ADD-2987-45D8-AA1B-BBE10A38B9BE}.Release|x64.Build.0 = Release|x64
+		{4A9F7ADD-2987-45D8-AA1B-BBE10A38B9BE}.Release|x86.ActiveCfg = Release|Win32
+		{4A9F7ADD-2987-45D8-AA1B-BBE10A38B9BE}.Release|x86.Build.0 = Release|Win32
+		{A902BDB3-4E37-40A0-BED0-8B55FD601682}.Debug|x64.ActiveCfg = Debug|x64
+		{A902BDB3-4E37-40A0-BED0-8B55FD601682}.Debug|x64.Build.0 = Debug|x64
+		{A902BDB3-4E37-40A0-BED0-8B55FD601682}.Debug|x86.ActiveCfg = Debug|Win32
+		{A902BDB3-4E37-40A0-BED0-8B55FD601682}.Debug|x86.Build.0 = Debug|Win32
+		{A902BDB3-4E37-40A0-BED0-8B55FD601682}.Release|x64.ActiveCfg = Release|x64
+		{A902BDB3-4E37-40A0-BED0-8B55FD601682}.Release|x64.Build.0 = Release|x64
+		{A902BDB3-4E37-40A0-BED0-8B55FD601682}.Release|x86.ActiveCfg = Release|Win32
+		{A902BDB3-4E37-40A0-BED0-8B55FD601682}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

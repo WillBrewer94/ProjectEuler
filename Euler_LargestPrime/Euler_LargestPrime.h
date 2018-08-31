@@ -1,0 +1,1 @@
+unsigned long long largest_prime(unsigned long long);
